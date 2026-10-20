@@ -16,6 +16,7 @@ spring:
         physical_naming_strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
 server:
   port: 9080
+  forward-headers-strategy: framework
 
 springdoc:
   api-docs:

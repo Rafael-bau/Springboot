@@ -21,7 +21,7 @@ public class OpenApiConfig
                         .version("1.0.0")
                         .description("Documentación de los servicios REST para la administración de alumnos, profesores y materias.")
                         .contact( new Contact( ).name("Equipo de Desarrollo") )
-                )
-                .servers( List.of( new Server( ).url("http://localhost:9080").description("Servidor de desarrollo" ) ) );
+                );
+
     }
 }
